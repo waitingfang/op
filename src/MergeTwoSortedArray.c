@@ -1,6 +1,6 @@
 //
 //  main.c
-//  MergeSortedArray
+//  MergeTwoSortedArray
 //
 //  Created by fzw on 9/26/18.
 //  Copyright © 2018 n. All rights reserved.
