@@ -3,6 +3,7 @@
 1. [merge two sorted array](./src/MergeTwoSortedArray.c)
 2. [narcissistic number](./src/narcissisticNumber.c)
 3. Rotate List
+
    [c code](./src/rotateList.c)
 
    [go code](./src/rotateList.go)
