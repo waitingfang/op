@@ -1,7 +1,13 @@
 # algorithm
 
-1. [merge two sorted array](./src/MergeTwoSortedArray.c)
-2. [narcissistic number](./src/narcissisticNumber.c)
+1. merge two sorted array
+
+   [implement by c](./src/MergeTwoSortedArray.c)
+   
+2. narcissistic number
+
+   [implement by c](./src/narcissisticNumber.c)
+
 3. Rotate List
 
    [implement by c](./src/rotateList.c)
