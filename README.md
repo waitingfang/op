@@ -36,3 +36,7 @@
    rotate 3 steps to the right: 0->1->2->NULL
    rotate 4 steps to the right: 2->0->1->NULL
    ```
+
+4. add Binary
+
+   [implement by c](./src/addBinary.c)
