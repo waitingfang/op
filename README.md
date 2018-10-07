@@ -1,11 +1,18 @@
 # algorithm
 
-1. [merge two sorted array](./src/MergeTwoSortedArray.c)
-2. [narcissistic number](./src/narcissisticNumber.c)
-3. Rotate List
-   [c code](./src/rotateList.c)
+1. merge two sorted array
 
-   [go code](./src/rotateList.go)
+   [implement by c](./src/MergeTwoSortedArray.c)
+   
+2. narcissistic number
+
+   [implement by c](./src/narcissisticNumber.c)
+
+3. Rotate List
+
+   [implement by c](./src/rotateList.c)
+
+   [implement by golang](./src/rotateList.go)
    ```
    Given a linked list, rotate the list to the right by k places, where k is non-negative.
    
