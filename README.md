@@ -26,3 +26,5 @@
    rotate 3 steps to the right: 0->1->2->NULL
    rotate 4 steps to the right: 2->0->1->NULL
    ```
+   [c code](./src/rotateList.c)
+   [go code](./src/rotateList.go)
