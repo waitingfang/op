@@ -14,12 +14,13 @@ struct ListNode {
     struct ListNode * next;
 };
 
-struct ListNode * rotateRight(struct ListNode * head, int k);
+struct ListNode * rotateRight(struct ListNode * head, int k);  // 解法一
+struct ListNode * rotateRight2(struct ListNode * head, int k);  // 解法二
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    struct ListNode head = { .val = 1, .next = NULL};
-    rotateRight(&head, 1);
+    struct ListNode l2 = {.val = 2, .next = NULL};
+    struct ListNode l1 = {.val = 1, .next = &l2};
+    rotateRight2(&l1, 2);
     return 0;
 }
 
@@ -61,3 +62,36 @@ struct ListNode * rotateRight(struct ListNode * head, int k) {
     rotateNode->next = NULL;
     return head;
 }
+
+struct ListNode * rotateRight2(struct ListNode * head, int k) {
+    /*先遍历整个链表获得链表长度n，然后把链表头和尾链接起来，再走n - k % n个节点，断开链表即可*/
+    if (!head || k == 0 || !head->next) {
+        return head;
+    }
+    
+    int listSize = 1;
+    struct ListNode * cur = head;
+    
+    while (cur->next) {
+        ++listSize;
+        cur = cur->next;
+    }
+    cur->next = head;
+    
+    if (k >= listSize) {
+        k %= listSize;
+        if (k == 0) {
+            return head;
+        }
+    }
+    
+    int m = listSize - k;
+    for (int i = 0; i < m; ++i) {
+        cur = cur->next;
+    }
+    
+    head = cur->next;
+    cur->next = NULL;
+    return head;
+}
+
