@@ -3,6 +3,9 @@
 1. [merge two sorted array](./src/MergeTwoSortedArray.c)
 2. [narcissistic number](./src/narcissisticNumber.c)
 3. Rotate List
+   [c code](./src/rotateList.c)
+
+   [go code](./src/rotateList.go)
    ```
    Given a linked list, rotate the list to the right by k places, where k is non-negative.
    
@@ -26,5 +29,3 @@
    rotate 3 steps to the right: 0->1->2->NULL
    rotate 4 steps to the right: 2->0->1->NULL
    ```
-   [c code](./src/rotateList.c)
-   [go code](./src/rotateList.go)
