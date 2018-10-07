@@ -4,9 +4,9 @@
 2. [narcissistic number](./src/narcissisticNumber.c)
 3. Rotate List
 
-   [c code](./src/rotateList.c)
+   [implement by c](./src/rotateList.c)
 
-   [go code](./src/rotateList.go)
+   [implement by golang](./src/rotateList.go)
    ```
    Given a linked list, rotate the list to the right by k places, where k is non-negative.
    
