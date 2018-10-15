@@ -28,6 +28,10 @@ int main(int argc, const char * argv[]) {
 }
 
 struct ListNode * reverseKGroup(struct ListNode * head, int k) {
+    if (!head || !head->next || k < 2) {
+        return head;
+    }
+    
     struct ListNode *s, *p = (struct ListNode *)malloc(sizeof(struct ListNode));
     int len = k;
     p->next = head;
