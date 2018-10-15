@@ -63,6 +63,7 @@
 5. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
    [implement by c](./src/reverseNodeKGroup.c)
+   [implement by go](./src/reverseNodeKGroup.go)
    
    ```
    Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
