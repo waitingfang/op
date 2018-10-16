@@ -58,7 +58,7 @@ class Solution:
 def main():
     head = ListNode(1)
     tmp = head
-    for i in [2, 3, 4, 5]:
+    for i in range(2, 6):
         ne = ListNode(i)
         tmp.next = ne
         tmp = ne
