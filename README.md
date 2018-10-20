@@ -1,4 +1,4 @@
-# algorithm
+# data structure; algorithm
 
 1. merge two sorted array
 
