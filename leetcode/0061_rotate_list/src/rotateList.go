@@ -7,9 +7,9 @@ type ListNode struct {
 
 func main() {
 	var (
-		l2 = ListNode{Val:2, Next:nil}
-		l1 = ListNode{Val:1, Next:&l2}
-		l0 = ListNode{Val:0, Next:&l1}
+		l2 = ListNode{Val: 2, Next: nil}
+		l1 = ListNode{Val: 1, Next: &l2}
+		l0 = ListNode{Val: 0, Next: &l1}
 	)
 	rotateRight(&l0, 4)
 }
