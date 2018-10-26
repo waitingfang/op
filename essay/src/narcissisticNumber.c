@@ -20,8 +20,8 @@ void narcissisticNumber(int m, int n) {
     if (m > n) {
         return;
     }
-    int i, j, k, flag = 0;
-    for (int o = m; o <= n; o++) {
+    int flag = 0;
+    for (int o = m, i, j, k = 0; o <= n; o++) {
         i = o / 100;
         j = o / 10 % 10;
         k = o % 10;
