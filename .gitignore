@@ -54,6 +54,7 @@ dkms.conf
 # vscode ignore
 .vscode
 
+# jetbrains
 .idea
 
 # mac ignore
