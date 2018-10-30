@@ -30,6 +30,26 @@
 
 ### Solution
 
-[implement by c](./src/narcissisticNumber.c)
+[implement by js](./src/narcissisticNumber.c)
+```
+function shuixian(m, n){
+		for (var i = m;i <= n;i++) {
+				let sum = 0;
+				let arr = i.toString().split("");
+				for (var j = 0;j < arr.length;j++) {
+						// console.log(arr[j]);
+						var num = parseFloat(arr[j]);
+						var z = Math.pow(num,3);
+						sum += z;
+				}
+				if (i === sum) {
+						console.log(i);
+				} else {
+						console.log("null");
+				}
+		}
+}
+shuixian(1, 154);
+```
 
 <HR style="border:3 double #987cb9" width="80%"color=#987cb9 SIZE=3>
