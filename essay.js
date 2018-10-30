@@ -1,5 +1,5 @@
 // 找出m~n之间的水仙数。
-```
+
 function shuixian(m,n){	
 	for(var i=m;i<=n;i++){
 		var sum=0;
@@ -17,4 +17,4 @@ function shuixian(m,n){
 	}
 };
 shuixian(153,154);
-```
+
