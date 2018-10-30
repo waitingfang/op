@@ -1,4 +1,4 @@
-找出m~n之间的水仙数。
+// 找出m~n之间的水仙数。
 ```
 function shuixian(m,n){	
 	for(var i=m;i<=n;i++){
