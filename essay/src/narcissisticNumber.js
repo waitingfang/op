@@ -1,5 +1,5 @@
 // 找出m~n之间的水仙花数。
-function shuixian(m, n){
+function narcissisticNumber(m, n){
 		for (var i = m;i <= n;i++) {
 				let sum = 0;
 				let arr = i.toString().split("");
@@ -16,4 +16,4 @@ function shuixian(m, n){
 				}
 		}
 }
-shuixian(1, 154);
+narcissisticNumber(1, 154);
