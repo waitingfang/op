@@ -11,9 +11,7 @@ function narcissisticNumber(m, n){
 				}
 				if (i === sum) {
 						console.log(i);
-				} else {
-						console.log("null");
-				}
+				} 
 		}
 }
 narcissisticNumber(1, 154);
