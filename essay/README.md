@@ -30,7 +30,7 @@
 
 ### Solution
 
-[implement by js](./src/narcissisticNumber.c)
+[implement by js](./src/narcissisticNumber.js)
 ```
 function shuixian(m, n){
 		for (var i = m;i <= n;i++) {
