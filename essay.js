@@ -1,8 +1,8 @@
 找出m~n之间的水仙数。
 ```
-function shuixian(m,n){
-	var sum=0;
+function shuixian(m,n){	
 	for(var i=m;i<=n;i++){
+		var sum=0;
 		var arr=i.toString().split("");
 			for(var j=0;j<arr.length;j++){
 				var num=parseFloat(arr[j]);
